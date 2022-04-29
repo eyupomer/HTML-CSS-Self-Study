@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+header {
+  margin-top: 3.6rem;
+  padding: 5rem;
+}
+
+.error-message {
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: #222;
+}
+
+.container {
+  display: flex;
+  padding: 0 8.4rem;
+  gap: 6.4rem;
+}
+
+img {
+  width: 50rem;
+}
+
+.error-text {
+  width: 50rem;
+}
+
+.error-heading {
+  color: #333;
+  font-size: 6.4rem;
+  margin-bottom: 3.6rem;
+}
+
+.error-paragraph {
+  color: #777;
+  font-size: 2.4rem;
+  letter-spacing: 0.4rem;
+  line-height: 1.2;
+}
+
+.btn {
+  padding: 2.4rem;
+  margin-top: 16rem;
+  border: none;
+  color: #fff;
+  background-color: #222;
+  transition: all 0.3s;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: #111;
+}
+
+footer {
+  margin-top: 4.8rem;
+  text-align: center;
+}
+
+.footer-text {
+  color: #999;
+}
+
+a:link {
+  color: #888;
+}
