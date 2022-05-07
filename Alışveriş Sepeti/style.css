@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    /* background-color: lightgrey; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    flex-direction: column;
+    /* margin: 100px; */
+    font-family: 'Roboto', sans-serif;
+}
+
+table, tr, th, td{
+    border: 2px solid white;
+    border-collapse: collapse;
+}
+
+th{
+    background-color: #666;
+    color: white;
+}
+
+th, td{
+    padding: 5px;
+}
+
+th:first-child{
+    width: 100px;
+    text-align: left;
+}
+th:nth-child(2){
+    width: 250px;
+    text-align: left;
+}
+th:nth-child(3), td:nth-child(3){
+    width: 70px;
+    text-align: center;
+}
+
+th:nth-child(n+4), td:nth-child(n+4){
+    text-align: right;
+    width: 100px;
+}
+
+td:last-child, th:last-child{
+    width:75px;
+}
+
+td:last-child i{
+    padding-right: 10px;
+}
+
+tr:nth-child(odd){
+    background-color: #ddd;
+}
+tr:nth-child(even){
+    background-color: rgb(247, 245, 245);
+}
+
+tfoot td{
+    text-align: right;
+    background-color: #666;
+    color: white;
+    font-weight: 600;
+}
+
+.bottom{
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    /* width: 81%; */
+}
+
+.button a {
+    display: inline-block;
+    padding: 8px 12px;
+    height: 40px;
+    background-color: orangered;
+    border-radius: 5px;
+    margin-top: 15px;
+    text-decoration: none;
+    color: #fff;
+    transition: all .4s;
+}
+
+.button a:hover {
+    background-color: transparent;
+    border: 2px solid orangered;
+    color: orangered;
+}
+
+.button i {
+    color: #000;
+}
