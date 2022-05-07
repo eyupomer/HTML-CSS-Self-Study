@@ -1,120 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Alışveriş Sepeti</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/d6d7ecfc42.js" crossorigin="anonymous"></script>
-</head>
-<body>
-
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/d6d7ecfc42.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
     <div class="container">
-        <table>
-            <thead>
-                <tr>
-                    <th>Ürün Kodu</th>
-                    <th>Ürün Adı</th>
-                    <th>Miktar</th>
-                    <th>Birim Fiyat</th>
-                    <th>Ara Toplam</th>
-                    <th></th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>154654</td>
-                    <td>Notebook</td>
-                    <td>1</td>
-                    <td>5.400₺</td>
-                    <td>5.400₺</td>
-                    <td>
-                        <i class="fa-solid fa-pen-to-square"></i>
-                        <i class="fa-solid fa-trash-can"></i></td>
-                    
-                </tr>
-                <tr>
-                    <td>456466</td>
-                    <td>Klavye</td>
-                    <td>2</td>
-                    <td>80₺</td>
-                    <td>160₺</td>
-                    <td>
-                        <i class="fa-solid fa-pen-to-square"></i>
-                        <i class="fa-solid fa-trash-can"></i></td>
-                    
-                </tr>
-                <tr>
-                    <td>564646</td>
-                    <td>Monitör</td>
-                    <td>1</td>
-                    <td>700₺</td>
-                    <td>700₺</td>
-                    <td>
-                        <i class="fa-solid fa-pen-to-square"></i>
-                        <i class="fa-solid fa-trash-can"></i></td>
-                    
-                </tr>
-                <tr>
-                    <td>123598</td>
-                    <td>Mouse</td>
-                    <td>2</td>
-                    <td>50₺</td>
-                    <td>100₺</td>
-                    <td>
-                        <i class="fa-solid fa-pen-to-square"></i>
-                        <i class="fa-solid fa-trash-can"></i></td>
-                    
-                </tr>
-                <tr>
-                    <td>613448</td>
-                    <td>Play Station</td>
-                    <td>1</td>
-                    <td>2500₺</td>
-                    <td>2500₺</td>
-                    <td>
-                        <i class="fa-solid fa-pen-to-square"></i>
-                        <i class="fa-solid fa-trash-can"></i></td>
-                    
-                </tr>
-                <tr>
-                    <td>789799</td>
-                    <td>USB Bellek</td>
-                    <td>3</td>
-                    <td>120₺</td>
-                    <td>360₺</td>
-                    <td>
-                        <i class="fa-solid fa-pen-to-square"></i>
-                        <i class="fa-solid fa-trash-can"></i></td>
-                    
-                </tr>
-            </tbody>
-            <tfoot>
-                <tr>
-                    <!-- <td>789799</td>
+      <table>
+        <thead>
+          <tr>
+            <th>Ürün Kodu</th>
+            <th>Ürün Adı</th>
+            <th>Miktar</th>
+            <th>Birim Fiyat (₺)</th>
+            <th>Ara Toplam (₺)</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>154654</td>
+            <td>Notebook</td>
+            <td class="number1">1</td>
+            <td class="price1">5400</td>
+            <td class="priceT1"></td>
+            <td>
+              <i class="fa-solid fa-pen-to-square"></i>
+
+              <i class="fa-solid fa-trash-can icon"></i>
+            </td>
+          </tr>
+          <tr>
+            <td>456466</td>
+            <td>Klavye</td>
+            <td class="number2">2</td>
+            <td class="price2">80</td>
+            <td class="priceT2"></td>
+            <td>
+              <i class="fa-solid fa-pen-to-square"></i>
+
+              <i class="fa-solid fa-trash-can icon2"></i>
+            </td>
+          </tr>
+          <tr>
+            <td>564646</td>
+            <td>Monitör</td>
+            <td class="number3">1</td>
+            <td class="price3">700</td>
+            <td class="priceT3"></td>
+            <td>
+              <i class="fa-solid fa-pen-to-square"></i>
+
+              <i class="fa-solid fa-trash-can icon3"></i>
+            </td>
+          </tr>
+          <tr>
+            <td>123598</td>
+            <td>Mouse</td>
+            <td class="number4">2</td>
+            <td class="price4">50</td>
+            <td class="priceT4"></td>
+            <td>
+              <i class="fa-solid fa-pen-to-square"></i>
+              <i class="fa-solid fa-trash-can icon4"></i>
+            </td>
+          </tr>
+          <tr>
+            <td>613448</td>
+            <td>Play Station</td>
+            <td class="number5">1</td>
+            <td class="price5">2500</td>
+            <td class="priceT5"></td>
+            <td>
+              <i class="fa-solid fa-pen-to-square"></i>
+              <i class="fa-solid fa-trash-can icon5"></i>
+            </td>
+          </tr>
+          <tr>
+            <td>789799</td>
+            <td>USB Bellek</td>
+            <td class="number6">3</td>
+            <td class="price6">120</td>
+            <td class="priceT6"></td>
+            <td>
+              <i class="fa-solid fa-pen-to-square"></i>
+              <i class="fa-solid fa-trash-can icon6"></i>
+            </td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <!-- <td>789799</td>
                     <td>USB Bellek</td>
                     <td>3</td> -->
-                    <td colspan="4">Toplam</td>
-                    <td>9.220₺</td>
-                    <td></td>
-                    
-                </tr>
-
-            </tfoot>
-            
-        </table>
-        <div class="bottom">
-            <div class="button">
-                <a href=""><i class="fa-solid fa-cart-shopping"></i>
-                <span>Alışverişe Devam</span></a> 
-            </div>
-            <div class="button">
-                <a href=""><i class="fa-solid fa-credit-card"></i>
-                <span>Ödemeye Geç</span></a> 
-            </div>
+            <td colspan="4">Toplam</td>
+            <td class="total-price"></td>
+            <td></td>
+          </tr>
+        </tfoot>
+      </table>
+      <div class="bottom">
+          <button class="btn-price">
+              <p><span class="tl"> ₺</span> Tutarları Hesapla</p>
+          </button>
+        <div class="button">
+          <a href=""
+            ><i class="fa-solid fa-cart-shopping"></i>
+            <span>Alışverişe Devam</span></a
+          >
         </div>
+        <div class="button">
+          <a href=""
+            ><i class="fa-solid fa-credit-card"></i> <span>Ödemeye Geç</span></a
+          >
+        </div>
+      </div>
     </div>
-    
-</body>
+
+    <script src="script.js"></script>
+  </body>
 </html>
